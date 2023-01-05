@@ -24,27 +24,34 @@ Request Example:
 \
 
 
-`{`
+`{
+`
 
 \
 
 
-`   "id": "{UserDefinedUniqueId}", `
+`   "id": "{UserDefinedUniqueId}",
+ `
 
 \
 
 
-`   "stream": { `
+`   "stream": {
+ `
 
 \
 
 
-`     "name": "output_stream_name", `
+`     "name": "output_stream_name",
+ `
 
 \
 
 
-`     "tracks": [ 101, 102 ] `
+`     "tracks": [
+ 101,
+ 102 ]
+ `
 
 \
 
@@ -64,7 +71,8 @@ Request Example:
 \
 
 
-`   "streamKey":"{streamName}" `
+`   "streamKey":"{streamName}"
+ `
 
 \
 
@@ -78,27 +86,34 @@ Request Example:
 \
 
 
-`{`
+`{
+`
 
 \
 
 
-`   "id": "{UserDefinedUniqueId}", `
+`   "id": "{UserDefinedUniqueId}",
+ `
 
 \
 
 
-`   "stream": { `
+`   "stream": {
+ `
 
 \
 
 
-`     "name": "output_stream_name", `
+`     "name": "output_stream_name",
+ `
 
 \
 
 
-`     "tracks": [ 101, 102 ] `
+`     "tracks": [
+ 101,
+ 102 ]
+ `
 
 \
 
@@ -118,7 +133,8 @@ Request Example:
 \
 
 
-`   "streamKey":"" `
+`   "streamKey":""
+ `
 
 \
 
@@ -240,7 +256,7 @@ Request Example:
 
 
 
-`POST http://1.2.3.4:8081/v1/vhosts/default/apps/app:stopRecord`
+`POST http://1.2.3.4:8081/v1/vhosts/default/apps/app:stopPush`
 
 \
 
@@ -250,12 +266,14 @@ Request Example:
 \
 
 
-`{`
+`{
+`
 
 \
 
 
-`   "id": "{userDefinedUniqueId}" `
+`   "id": "{userDefinedUniqueId}"
+ `
 
 \
 
